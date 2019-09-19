@@ -1,0 +1,18 @@
+DropCreateDatabaseIfModelChanges<Name of class>
+e.g<SchoolContext>
+CodeFirst:
+1)create the clas file you wan to make table out of.
+2)create context class that extends DbContext.specify the name of the classes that you want to create table out of.
+3)specify the database location and name that you would like to use.
+4)initiaize with some seed data.
+5)call the initializer in global.asax file application_startmethod.
+6)in the controller, create an instance of the Context and use linq to connect the database and fetch the data.
+7)Display the data in the view.
+
+
+https://www.codeproject.com/articles/765519/asp-net-mvc-for-beginners-in-web-development
+https://weblogs.asp.net/scottgu/code-first-development-with-entity-framework-4
+https://www.tutlane.com/tutorial/aspnet-mvc/ado-net-crud-operations-insert-update-delete-in-asp-net-mvc-4-example
+https://social.technet.microsoft.com/wiki/contents/articles/22208.asp-net-mvc-5-crud-operations-with-entity-framework-6-on-visual-studio-2013.aspx
+
+https://www.codesdope.com/practice/python-go-for-and-for/
